@@ -4,7 +4,7 @@ A filing-facing step may proceed only when a live, unconsumed approval from a
 named person covers that exact scope. Anything else is a hard stop.
 """
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 
 CONFIDENCE_THRESHOLD = 0.7
