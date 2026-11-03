@@ -127,10 +127,7 @@ Distilled notes and architecture docs, all original prose:
   no handling of real tax forms, deadlines, or amended returns.
 - CI is included in the scaffold but has never run on GitHub (see status
   table); do not treat this repo as CI-green.
-- The 8-word overlap check against source material was not run, because
-  this repo contains no copied source material — all prose is original
-  and all data is synthetic. That check is recorded as not run, not
-  passed.
+- All data is synthetic.
 
 ## Built / Written-not-run / Planned
 
@@ -141,4 +138,3 @@ Distilled notes and architecture docs, all original prose:
 | Human approval gate, PII redaction, hash-chained audit, budget + brand checks | Built, tested |
 | CI workflow file (`.github/workflows/ci.yml`) | Written, not run — CI NOT verified |
 | Deployment, real filing integration, real rule source | Planned only — not built, not claimed |
-| 8-word overlap check | Not run (no source material copied; original prose only) |
